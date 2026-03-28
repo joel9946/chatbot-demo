@@ -8,7 +8,7 @@ st.set_page_config(page_title="Nexus Chat", page_icon="💬", layout="centered")
 # ── Groq client ───────────────────────────────────────────────────────────────
 # os.environ.get("GROQ_API_KEY") reads the key from Streamlit Cloud's Secrets
 # instead of having it written here. This keeps your key safe on GitHub.
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+client = Groq(api_key=os.environ.get(api_key="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"))
 
 # ── System prompt ─────────────────────────────────────────────────────────────
 # This is the instruction we give the AI before every conversation.
